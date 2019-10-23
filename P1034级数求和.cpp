@@ -7,7 +7,7 @@ int main(){
     int n=0;
     while(sn<=k){
         n++;
-        sn += 1.00000/n;
+        sn += 1.0/n;
     }
     cout<<n<<endl;
     return 0;
