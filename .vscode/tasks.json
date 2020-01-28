@@ -7,7 +7,7 @@
             "label": "build",
             "type": "shell",
             "command": "g++ -g ${file} -o out/${fileBasenameNoExtension}.out",
-            "group":{
+            "group": {
                 "kind": "build",
                 "isDefault": true
             }
