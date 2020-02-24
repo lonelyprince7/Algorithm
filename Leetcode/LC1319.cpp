@@ -1,3 +1,4 @@
+//DFS+连通性判断
 #include<iostream>
 #include<vector>
 using namespace std;
