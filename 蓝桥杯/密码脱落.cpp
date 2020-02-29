@@ -1,4 +1,4 @@
-//本题是经典的LCS问题
+//本题是经典的LCS问题,采用DP解决
 #include<iostream>
 #include<algorithm>
 #include<memory.h>

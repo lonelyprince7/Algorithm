@@ -1,4 +1,4 @@
-#include<bits/stdc++.h> //本体用欧拉线性筛
+#include<bits/stdc++.h> //本体考查欧拉线性筛
 using namespace std;
 int n,book[300000],prime[300000],cnt;
 int main(){

@@ -1,4 +1,4 @@
-//本题考察补码反码转换
+//本题考察计算机系统中有符号数的补码储存知识
 #include<bits/stdc++.h>
 using namespace std;
 string to_bin(int a){

@@ -1,4 +1,5 @@
-//本题采用BFS解决
+//本题采用BFS解决,
+//技巧在于用一个字符串储存当前场上状态,将空白看为实际移动物
 #include<bits/stdc++.h>
 using namespace std;
 struct info{

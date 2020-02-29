@@ -1,6 +1,5 @@
 //本题为常见的模拟题型
-#include<iostream>
-#include<algorithm>
+#include<bits/stdc++.h>
 using namespace std;
 int main(){
     int w,m,n;

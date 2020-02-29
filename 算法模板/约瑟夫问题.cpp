@@ -20,6 +20,5 @@ int main(){
         cout<<last<<endl;
     }
     cout<<last<<endl;
-
     return 0;
 }
