@@ -1,7 +1,4 @@
-//本题为大数相乘的典型例题
-#include<iostream>
-#include<vector>
-#include<math.h>
+#include<bits/stdc++.h> //本题为大数相乘的典型例题
 using namespace std;
 int main(){
     string num1="123";

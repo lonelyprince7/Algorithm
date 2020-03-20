@@ -1,6 +1,4 @@
-//本题为贪心算法典型例题
-#include<iostream>
-#include<vector>
+#include<bits/stdc++.h> //本题为贪心算法典型例题
 using namespace std;
 int main(){
     vector<int> prices{7,6,4,3,1};
