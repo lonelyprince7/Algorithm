@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @Version: 1.0
+ * @Author: ZhangHongYu
+ * @Date: 2020-11-12 15:28:43
+ * @LastEditors: ZhangHongYu
+ * @LastEditTime: 2020-11-12 22:17:16
+ */
 #include<iostream>
 using namespace std;    //相同的球划分进相同的盒子
 int f[201][7];
@@ -12,6 +20,6 @@ int main(){
             f[i][j]=f[i-1][j-1]+f[i-j][j];  //注i-j是重点　至少有一个盒子只有一个小球,等价于f[i-1][j-1],没有一个盒子只有一个小球->每个盒子都拿出一个小球，等价于f[i-j][j]
         }
     }
-    std::cout<<f[n][k]<<endl;
+    cout<<f[n][k]<<endl;
     return 0;
 }

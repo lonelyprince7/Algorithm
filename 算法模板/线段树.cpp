@@ -1,3 +1,11 @@
+/*
+ * @Descripttion: 
+ * @Version: 1.0
+ * @Author: ZhangHongYu
+ * @Date: 2020-11-12 15:28:43
+ * @LastEditors: ZhangHongYu
+ * @LastEditTime: 2020-11-13 08:56:09
+ */
 #include<bits/stdc++.h>
 using namespace std;
 class NumArray {
@@ -9,7 +17,7 @@ public:
             this->nums[i]=nums[j];
         }
         int cur=n-1;
-        while(cur>0){ 
+        while(cur>0){                         //二叉树节点编号从1开始
             this->nums[cur]=this->nums[2*cur]+this->nums[2*cur+1];
             cur--;
         }
